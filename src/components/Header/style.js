@@ -13,7 +13,7 @@ export const Headers = styled.header`
     padding: 1rem 3rem;
   }
   @media screen and (max-width: 40em) {
-    padding: 0.5rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 `;
 

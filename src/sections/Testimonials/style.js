@@ -10,6 +10,7 @@ export const TestimonialSection = styled.section`
   align-items: center;
   width: 100%;
   padding: 5rem 0;
+  overflow-x: hidden;
 `;
 
 export const Title = styled.h1`
