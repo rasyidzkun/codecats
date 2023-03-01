@@ -6,9 +6,9 @@ import {
   Circle,
   Title,
   Subtitle,
+  Btn,
 } from "./style";
-import { mobile } from "../../assets";
-import CTA from "./CTA";
+import { mobile, arrowRight } from "../../assets";
 
 const Content = () => (
   <MainContent>
@@ -22,7 +22,9 @@ const Content = () => (
         we help fast growing companies build award winning websites
       </Subtitle>
 
-      <CTA />
+      <Btn href="#about">
+        Get in touch &nbsp; <img src={arrowRight} alt="Arrow Right" />
+      </Btn>
     </Left>
 
     <MobileSvg src={mobile} alt="Hero Image" />

@@ -4,4 +4,3 @@
 
 - [x] React
 - [x] Styled Components
-- [x] GSAP

@@ -14,7 +14,7 @@ const move = keyframes`
 
 export const HomeSection = styled.section`
   width: 100vw;
-  height: 45vw;
+  height: 100vh;
   background-color: #0a0b10;
   display: flex;
   justify-content: center;
@@ -149,7 +149,7 @@ export const Subtitle = styled.h5`
   color: var(--nav2);
 `;
 
-export const Btn = styled.div`
+export const Btn = styled.a`
   background-color: var(--white);
   color: #0a0b10;
   padding: 0.5rem 1rem;

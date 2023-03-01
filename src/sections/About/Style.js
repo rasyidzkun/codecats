@@ -36,6 +36,7 @@ export const Hand = styled.div`
 
   @media screen and (max-width: 40em) {
     width: 30%;
+    overflow-x: hidden;
   }
 `;
 

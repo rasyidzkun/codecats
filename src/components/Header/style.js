@@ -8,13 +8,12 @@ export const Headers = styled.header`
   background-color: var(--nav);
   color: var(--white);
   position: relative;
-  z-index: 999;
 
   @media screen and (max-width: 64em) {
     padding: 1rem 3rem;
   }
   @media screen and (max-width: 40em) {
-    padding: 1rem 1.5rem;
+    padding: 0.5rem 1.5rem;
   }
 `;
 
@@ -141,6 +140,7 @@ export const MobileNav = styled.nav`
   left: 0;
   right: 0;
   opacity: ${(props) => (props.clicked ? "1" : 0)};
+  visibility: ${(props) => (props.clicked ? "visible" : "hidden")};
   transition: all 0.5s;
   z-index: 1;
   background-color: rgb(53 53 63 / 95%);

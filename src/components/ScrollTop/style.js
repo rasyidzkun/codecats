@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Up = styled.div`
+export const Up = styled.a`
   position: fixed;
   bottom: 2rem;
   right: 2rem;

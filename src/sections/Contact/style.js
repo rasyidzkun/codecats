@@ -37,6 +37,11 @@ export const Icons = styled.div`
     img {
       width: 3rem;
       height: 3rem;
+
+      @media screen and (max-width: 40em) {
+        width: 2.3rem;
+        height: 2.3rem;
+      }
     }
 
     &:hover {
