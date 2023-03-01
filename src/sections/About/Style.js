@@ -113,7 +113,7 @@ export const Human = styled.div`
 `;
 
 export const Description = styled.h4`
-  font-size: 1rem;
+  font-size: calc(0.5rem + 1vw);
   line-height: 1.5;
   color: var(--nav);
 `;
