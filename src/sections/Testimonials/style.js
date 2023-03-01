@@ -9,7 +9,6 @@ export const TestimonialSection = styled.section`
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 5rem 0;
   overflow-x: hidden;
 `;
 
