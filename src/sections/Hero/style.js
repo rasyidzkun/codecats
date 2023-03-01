@@ -147,6 +147,10 @@ export const Title = styled.h1`
 export const Subtitle = styled.h5`
   font-size: calc(0.5rem + 0.5vw);
   color: var(--nav2);
+
+  @media screen and (max-width: 40em) {
+    visibility: hidden;
+  }
 `;
 
 export const Btn = styled.a`

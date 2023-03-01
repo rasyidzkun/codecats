@@ -35,8 +35,7 @@ export const Hand = styled.div`
   transform: rotate(-15deg);
 
   @media screen and (max-width: 40em) {
-    width: 30%;
-    overflow-x: hidden;
+    display: none;
   }
 `;
 
