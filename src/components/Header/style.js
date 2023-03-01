@@ -25,6 +25,7 @@ export const Logo = styled.a`
   cursor: pointer;
   img {
     margin-right: 0.5rem;
+    margin-top: -0.4rem;
 
     @media screen and (max-width: 40em) {
       width: 1.5rem;

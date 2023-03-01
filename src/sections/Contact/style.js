@@ -88,7 +88,7 @@ export const Form = styled.form`
   }
 
   button {
-    padding: 0.8rem 1.5rem;
+    padding: 0.5rem 1.5rem;
     background-color: var(--white);
     font-size: 1.2rem;
     border-radius: 4px;

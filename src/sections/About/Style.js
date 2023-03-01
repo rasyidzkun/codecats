@@ -117,6 +117,10 @@ export const Description = styled.h4`
   font-weight: 600;
   line-height: 1.5;
   color: var(--nav);
+
+  @media screen and (max-width: 48em) {
+    font-weight: 700;
+  }
 `;
 
 export const Circle = styled.span`

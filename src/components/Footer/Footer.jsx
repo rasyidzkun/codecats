@@ -3,16 +3,13 @@ import styled from "styled-components";
 const FooterSection = styled.footer`
   padding: 1.2rem calc(2.5rem + 2.5vw);
   font-size: 1rem;
-  width: 100vw;
   text-align: center;
+  position: relative;
   background-color: #0a0b10;
   color: var(--white);
 
+  span,
   a {
-    color: var(--purple);
-  }
-
-  span {
     color: var(--pink);
   }
 `;
